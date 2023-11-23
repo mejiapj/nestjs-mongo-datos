@@ -1,4 +1,3 @@
-//////////////////////////////////////////
 import { Prop, Schema, SchemaFactory, raw } from '@nestjs/mongoose';
 import { Document, Types } from 'mongoose';
 
@@ -35,4 +34,3 @@ export class Product extends Document {
 
 export const ProductSchema = SchemaFactory.createForClass(Product);
 ProductSchema.index({ price: 1, stock: -1 });
-////////////////////////////////////////////
