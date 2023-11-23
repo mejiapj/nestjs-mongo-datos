@@ -13,7 +13,6 @@ import { DatabaseModule } from './database/database.module';
 import { enviroments } from './enviroments';
 import config from './config';
 
-/*
 import { MongoClient } from 'mongodb';
 
 const uri =
@@ -34,7 +33,6 @@ async function run() {
 }
 
 run().catch(console.error);
-*/
 
 @Module({
   imports: [
