@@ -1,3 +1,4 @@
+//////////////////////////////
 import { Module, Global } from '@nestjs/common';
 import { ConfigType } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
@@ -55,3 +56,4 @@ const API_KEY_PROD = 'PROD1212121SA';
   exports: ['API_KEY', 'MONGO', MongooseModule],
 })
 export class DatabaseModule {}
+//////////////////////////////
