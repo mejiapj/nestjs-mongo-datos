@@ -1,3 +1,4 @@
+//////////////
 import { IsMongoId, IsNotEmpty, IsDate, IsArray } from 'class-validator';
 import { OmitType, PartialType } from '@nestjs/swagger';
 
@@ -24,3 +25,4 @@ export class AddProductsToOrderDto {
   @IsNotEmpty()
   readonly productsIds: string[];
 }
+//////////////////////

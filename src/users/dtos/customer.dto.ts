@@ -1,4 +1,3 @@
-////////////////////////
 import {
   IsString,
   IsNotEmpty,
@@ -27,4 +26,3 @@ export class CreateCustomerDto {
 }
 
 export class UpdateCustomerDto extends PartialType(CreateCustomerDto) {}
-/////////////////////////////
