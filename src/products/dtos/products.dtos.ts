@@ -1,4 +1,3 @@
-/////////////////////
 import {
   IsString,
   IsNumber,
@@ -71,4 +70,3 @@ export class FilterProductsDto {
   @IsPositive()
   maxPrice: number;
 }
-/////////////////////////
