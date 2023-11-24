@@ -1,3 +1,4 @@
+//////////////////////////////////
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document, Types } from 'mongoose';
 
@@ -19,3 +20,4 @@ export class Customer extends Document {
 }
 
 export const CustomerSchema = SchemaFactory.createForClass(Customer);
+////////////////////////
