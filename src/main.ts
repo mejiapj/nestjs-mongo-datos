@@ -1,3 +1,4 @@
+///////////////////
 import { NestFactory } from '@nestjs/core';
 import { ValidationPipe } from '@nestjs/common';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
@@ -24,3 +25,4 @@ async function bootstrap() {
   await app.listen(3000);
 }
 bootstrap();
+////////////////////////////////
